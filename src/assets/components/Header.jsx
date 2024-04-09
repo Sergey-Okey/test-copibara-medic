@@ -16,9 +16,9 @@ export default function Header() {
 				<nav>
 					<ul>
 						<li>
-							<a className='active-link' href="#" alt="">Лаборатория</a>
-							<a href="#" alt="">Галерея</a>
-							<a href="#" alt="">Оставить заявку</a>
+							<a className='active-link' href="#laboratory" alt="">Лаборатория</a>
+							<a href="#gallery" alt="">Галерея</a>
+							<a href="#application" alt="">Оставить заявку</a>
 						</li>
 					</ul>
 				</nav>
@@ -35,3 +35,14 @@ export default function Header() {
 		</div>
 	)
 }
+
+// Плаваня прокрутка к ссылкам.
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor.addEventListener('click', function (e) {
+		e.preventDefault();
+
+		document.querySelector(this.getAttribute('href')).scrollIntoView({
+			behavior: 'smooth'
+		});
+	});
+});

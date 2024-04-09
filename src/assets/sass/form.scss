@@ -28,5 +28,10 @@ form {
 		line-height: 29.4px;
 		gap: 10px;
 		cursor: pointer;
+
+		&:hover {
+			box-shadow: $box-shadow1;
+			transition: .3s ease;
+		}
 	}
 }

@@ -1,3 +1,5 @@
+@import './color.scss';
+
 .gallery {
 	margin-top: 96px;
 
@@ -31,6 +33,11 @@
 			img {
 				display: flex;
 				width: 100%;
+
+				&:hover {
+					box-shadow: $box-shadow1;
+					transition: .3s ease;
+				}
 			}
 		}
 	}
@@ -50,6 +57,11 @@
 			img {
 				display: flex;
 				width: 100%;
+
+				&:hover {
+					box-shadow: $box-shadow1;
+					transition: .3s ease;
+				}
 			}
 
 			.full {

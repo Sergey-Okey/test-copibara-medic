@@ -4,7 +4,7 @@ form input {
   padding: 12px 16px;
   font-size: 21px;
   border-radius: 8px;
-  border: solid 2px #4F58C9;
+  border: solid 2px #737BE1;
   margin-right: 20px;
   margin: 48px 0;
   margin-right: 20px;
@@ -13,7 +13,7 @@ form button {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  background-color: #4F58C9;
+  background-color: #737BE1;
   border: 0;
   padding: 12px 18px;
   border-radius: 8px;
@@ -23,4 +23,8 @@ form button {
   line-height: 29.4px;
   gap: 10px;
   cursor: pointer;
+}
+form button:hover {
+  box-shadow: 0 10px 20px 0 rgb(203, 209, 204);
+  transition: 0.3s ease;
 }/*# sourceMappingURL=form.css.map */

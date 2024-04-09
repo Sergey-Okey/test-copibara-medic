@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function Application() {
 	return (
 		<div>
-			<article className='application'>
+			<article className='application' id='application'>
 				<h1>Заявка на диагностику</h1>
 				<p>Доверьте свои медицинские исследования надежным капибарам-лаборантам и получите <br /> качественные результаты в кратчайшие сроки!</p>
 				<div className="form">

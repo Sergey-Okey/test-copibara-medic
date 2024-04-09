@@ -12,7 +12,7 @@ import img7 from '../images/gallery/img7.png'
 export default function Gallery() {
 	return (
 		<div>
-			<section className="gallery">
+			<section className="gallery" id='gallery'>
 				<h1>Галерея</h1>
 				<div className="grid-content">
 

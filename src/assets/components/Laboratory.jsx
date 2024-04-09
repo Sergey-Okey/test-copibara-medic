@@ -6,7 +6,7 @@ import '../css/laboratory.css'
 export default function Laboratory() {
 	return (
 		<div>
-			<article className="laboratory">
+			<article className="laboratory" id='laboratory'>
 				<div className="content-title">
 					<h1>Лаборатория</h1>
 					<p>Наша лаборатория предлагает широкий спектр медицинских исследований, проводимых опытными капибарами-лаборантами. Мы специализируемся на анализе биоматериалов, микробиологических исследованиях, генетической диагностике и многом другом.</p>

@@ -29,6 +29,10 @@
   display: flex;
   width: 100%;
 }
+.gallery .grid-content .gallery-item img:hover {
+  box-shadow: 0 10px 20px 0 rgb(203, 209, 204);
+  transition: 0.3s ease;
+}
 .gallery .gallery-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -44,6 +48,10 @@
 .gallery .gallery-content .gallery-item img {
   display: flex;
   width: 100%;
+}
+.gallery .gallery-content .gallery-item img:hover {
+  box-shadow: 0 10px 20px 0 rgb(203, 209, 204);
+  transition: 0.3s ease;
 }
 .gallery .gallery-content .gallery-item .full {
   min-width: 750px;

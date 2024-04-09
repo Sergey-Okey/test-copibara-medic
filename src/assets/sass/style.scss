@@ -21,9 +21,31 @@ body {
 	font-family: "Montserrat", sans-serif;
 	overflow-x: hidden;
 	background: $background;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
 }
 
 .container {
 	width: 80%;
 	margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 30px;
+}
+
+::-webkit-scrollbar-track {
+	background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $accent-color;
+	border-radius: 5px;
+}
+
+*[id] {
+	scroll-margin-top: 10vh;
+	scroll-behavior: smooth;
 }
