@@ -8,7 +8,9 @@ export default function Header() {
 		<div>
 			<header>
 				<div className="logo">
-					<img src={logo} alt="Logo" />
+					<a href="#">
+						<img src={logo} alt="Logo" />
+					</a>
 					<span>Современные методики диагностики</span>
 				</div>
 				<nav>
@@ -21,7 +23,9 @@ export default function Header() {
 					</ul>
 				</nav>
 				<div className="phone-contact">
-					<img src={phone} alt="Phone" />
+					<a href="tel:+7 123 456 7890">
+						<img src={phone} alt="Phone" />
+					</a>
 					<div className="contact-link" >
 						<a href="tel:+7 123 456 7890">+7 123 456 7890</a>
 						<span>Звонок бесплатный</span>

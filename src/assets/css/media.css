@@ -3,7 +3,6 @@
     width: 90%;
   }
   .container header {
-    width: 100%;
     padding: 30px 0;
   }
   .container header .logo {
@@ -18,7 +17,7 @@
     display: none;
   }
   .container .phone-contact {
-    width: 20%;
+    align-items: start;
   }
   .container .phone-contact img {
     margin: 0;
@@ -26,8 +25,9 @@
   .container .phone-contact .contact-link {
     display: none;
   }
-  .greting {
-    margin-top: 230px;
+  .greting .greting-title {
+    margin: 0;
+    margin-top: 185px;
   }
   .greting .span-violet,
   .greting .white-span {
@@ -37,8 +37,85 @@
     background: #E9EAF9;
     max-width: 250px;
   }
-  .greting .greting::after {
-    width: 100%;
+  .greting::after {
+    top: 110px;
+    left: 0;
     height: 243px;
+    background-image: url(../images/greting/mobile-back.png);
+  }
+  .slogan {
+    padding: 30px 0;
+  }
+  .laboratory {
+    flex-wrap: wrap;
+  }
+  .laboratory .content-image {
+    display: flex;
+    justify-content: center;
+  }
+  .laboratory .content-image img {
+    margin: 0 auto;
+  }
+  .laboratory::after {
+    left: -20px;
+    order: 1;
+  }
+  .laboratory .content-title {
+    display: flexbox;
+    order: 2;
+  }
+  .laboratory .content-title h1 {
+    font-size: 28px;
+  }
+  .laboratory .content-title p {
+    font-size: 18px;
+  }
+  .gallery h1 {
+    font-size: 28px;
+  }
+  .gallery .grid-content {
+    grid-template-columns: 1fr;
+  }
+  .gallery .grid-content .span {
+    grid-column: span 1;
+  }
+  .gallery .grid-content .rows {
+    grid-row: span 2;
+  }
+  .gallery .gallery-content {
+    display: none;
+  }
+  .application {
+    margin: 30px 0;
+    padding: 30px 10px;
+    text-align: left;
+  }
+  .application h1 {
+    font-size: 28px;
+    text-wrap: wrap;
+    width: 80%;
+    display: flex;
+  }
+  .application p {
+    font-size: 18px;
+  }
+  .form input {
+    margin: 10px 0;
+  }
+  .form button {
+    margin-top: 35px;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 25px 30px;
+    justify-content: center;
+  }
+  footer .logo {
+    order: 1;
+  }
+  footer span {
+    text-align: center;
+    margin-top: 20px;
+    order: 2;
   }
 }/*# sourceMappingURL=media.css.map */

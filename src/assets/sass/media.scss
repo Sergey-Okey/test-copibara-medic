@@ -4,7 +4,6 @@
 		width: 90%;
 
 		header {
-			width: 100%;
 			padding: 30px 0;
 
 			.logo {
@@ -23,7 +22,7 @@
 		}
 
 		.phone-contact {
-			width: 20%;
+			align-items: start;
 
 			img {
 				margin: 0;
@@ -37,7 +36,10 @@
 	}
 
 	.greting {
-		margin-top: 230px;
+		.greting-title {
+			margin: 0;
+			margin-top: 185px;
+		}
 
 		.span-violet,
 		.white-span {
@@ -48,12 +50,114 @@
 			background: #E9EAF9;
 			max-width: 250px;
 		}
+	}
 
-		.greting::after {
-			width: 100%;
-			height: 243px;
+	.greting::after {
+		top: 110px;
+		left: 0;
+		height: 243px;
+		background-image: url(../images/greting/mobile-back.png);
+	}
 
+	.slogan {
+		padding: 30px 0;
+	}
+
+	.laboratory {
+		flex-wrap: wrap;
+
+		.content-image {
+			display: flex;
+			justify-content: center;
+
+			img {
+				margin: 0 auto;
+			}
 		}
 
+		&::after {
+			left: -20px;
+			order: 1;
+		}
+
+		.content-title {
+			display: flexbox;
+			order: 2;
+
+			h1 {
+				font-size: 28px;
+			}
+
+			p {
+				font-size: 18px;
+			}
+		}
 	}
+
+	.gallery {
+
+		h1 {
+			font-size: 28px;
+		}
+
+		.grid-content {
+			grid-template-columns: 1fr;
+
+			.span {
+				grid-column: span 1;
+			}
+
+			.rows {
+				grid-row: span 2;
+			}
+		}
+
+		.gallery-content {
+			display: none;
+		}
+	}
+
+	.application {
+		margin: 30px 0;
+		padding: 30px 10px;
+		text-align: left;
+
+		h1 {
+			font-size: 28px;
+			text-wrap: wrap;
+			width: 80%;
+			display: flex;
+		}
+
+		p {
+			font-size: 18px;
+		}
+	}
+
+	.form {
+		input {
+			margin: 10px 0;
+		}
+
+		button {
+			margin-top: 35px;
+		}
+	}
+
+	footer {
+		flex-wrap: wrap;
+		padding: 25px 30px;
+		justify-content: center;
+
+		.logo {
+			order: 1;
+		}
+
+		span {
+			text-align: center;
+			margin-top: 20px;
+			order: 2;
+		}
+	}
+
 }
