@@ -1,6 +1,5 @@
 .greting {
   width: 100%;
-  padding: 210px 0;
 }
 .greting .span-violet,
 .greting .white-span {
@@ -8,6 +7,9 @@
   display: block;
   font-size: 3rem;
   font-weight: 700;
+}
+.greting .greting-title {
+  margin: 210px 0;
 }
 .greting .span-violet {
   color: white;
@@ -42,7 +44,7 @@
 .slogan {
   width: 100%;
   text-align: center;
-  padding: 95px 0;
+  padding: 96px 0;
 }
 .slogan span {
   font-size: 1.2rem;

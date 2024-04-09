@@ -1,0 +1,59 @@
+@media screen and (max-width:767px) {
+
+	.container {
+		width: 90%;
+
+		header {
+			width: 100%;
+			padding: 30px 0;
+
+			.logo {
+				flex-wrap: wrap;
+				gap: 6px;
+
+				span {
+					text-wrap: nowrap;
+					font-size: 12px;
+				}
+			}
+
+			nav {
+				display: none;
+			}
+		}
+
+		.phone-contact {
+			width: 20%;
+
+			img {
+				margin: 0;
+			}
+
+			.contact-link {
+				display: none;
+
+			}
+		}
+	}
+
+	.greting {
+		margin-top: 230px;
+
+		.span-violet,
+		.white-span {
+			font-size: 1.5rem;
+		}
+
+		.white-span {
+			background: #E9EAF9;
+			max-width: 250px;
+		}
+
+		.greting::after {
+			width: 100%;
+			height: 243px;
+
+		}
+
+	}
+}

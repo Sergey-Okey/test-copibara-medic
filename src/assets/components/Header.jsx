@@ -9,7 +9,7 @@ export default function Header() {
 			<header>
 				<div className="logo">
 					<img src={logo} alt="Logo" />
-					<span>Современные методы <br /> диагностики</span>
+					<span>Современные методики диагностики</span>
 				</div>
 				<nav>
 					<ul>
