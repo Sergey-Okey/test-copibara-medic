@@ -2,17 +2,18 @@ import '../css/application.css'
 import '../css/form.css'
 import ok from '../images/application/ok.png'
 import { useState } from 'react'
+import { Element } from 'react-scroll';
 
 export default function Application() {
 	return (
 		<div>
-			<article className='application' id='application'>
+			<Element name='application' className='application' id='application'>
 				<h1>Заявка на диагностику</h1>
 				<p>Доверьте свои медицинские исследования надежным капибарам-лаборантам и получите <br /> качественные результаты в кратчайшие сроки!</p>
 				<div className="form">
 					<MyForm />
 				</div>
-			</article>
+			</Element>
 		</div>
 	)
 }

@@ -34,6 +34,7 @@ header {
 					font-size: 1.2rem;
 					font-weight: 500;
 					text-wrap: nowrap;
+					cursor: pointer;
 
 					&:hover {
 						color: $accent-color;
@@ -54,18 +55,24 @@ header {
 	.phone-contact {
 		display: flex;
 		align-items: center;
-		img{
+
+		img {
 			margin-right: 10px;
 		}
-		.contact-link{
-			span, a{
+
+		.contact-link {
+
+			span,
+			a {
 				display: block;
 			}
-			a{
-			font-size: 18px;
-			font-weight: 600;
+
+			a {
+				font-size: 18px;
+				font-weight: 600;
 			}
-			span{
+
+			span {
 				font-size: 14px;
 			}
 		}

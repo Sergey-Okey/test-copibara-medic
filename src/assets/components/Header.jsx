@@ -1,6 +1,8 @@
 import logo from '../images/header/logo.svg'
 import phone from '../images/header/phone.webp'
 import '../css/header.css'
+import { Link } from 'react-scroll';
+
 
 
 export default function Header() {
@@ -8,7 +10,7 @@ export default function Header() {
 		<div>
 			<header>
 				<div className="logo">
-					<a href="#">
+					<a href="/">
 						<img src={logo} alt="Logo" />
 					</a>
 					<span>Современные методики диагностики</span>
@@ -16,9 +18,9 @@ export default function Header() {
 				<nav>
 					<ul>
 						<li>
-							<a className='active-link' href="#laboratory" alt="">Лаборатория</a>
-							<a href="#gallery" alt="">Галерея</a>
-							<a href="#application" alt="">Оставить заявку</a>
+							<Link to='laboratory' className='active-link' smooth={true} duration={500}>Лаборатория</Link>
+							<Link to='gallery' smooth={true} duration={500}>Галерея</Link>
+							<Link to='application' smooth={true} duration={500}>Оставить заявку</Link>
 						</li>
 					</ul>
 				</nav>
@@ -35,14 +37,3 @@ export default function Header() {
 		</div>
 	)
 }
-
-// Плаваня прокрутка к ссылкам.
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-	anchor.addEventListener('click', function (e) {
-		e.preventDefault();
-
-		document.querySelector(this.getAttribute('href')).scrollIntoView({
-			behavior: 'smooth'
-		});
-	});
-});

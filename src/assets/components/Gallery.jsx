@@ -6,13 +6,13 @@ import img4 from '../images/gallery/img4.png'
 import img5 from '../images/gallery/img5.png'
 import img6 from '../images/gallery/img6.png'
 import img7 from '../images/gallery/img7.png'
-
+import { Element } from 'react-scroll';
 
 
 export default function Gallery() {
 	return (
 		<div>
-			<section className="gallery" id='gallery'>
+			<Element name='gallery' className="gallery" id='gallery'>
 				<h1>Галерея</h1>
 				<div className="grid-content">
 
@@ -43,8 +43,7 @@ export default function Gallery() {
 					</div>
 
 				</div>
-
-			</section>
-		</div>
+			</Element>
+		</div >
 	)
 }

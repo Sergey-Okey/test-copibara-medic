@@ -26,6 +26,7 @@ header nav ul li a {
   font-size: 1.2rem;
   font-weight: 500;
   text-wrap: nowrap;
+  cursor: pointer;
 }
 header nav ul li a:hover {
   color: #737BE1;
@@ -44,7 +45,8 @@ header .phone-contact {
 header .phone-contact img {
   margin-right: 10px;
 }
-header .phone-contact .contact-link span, header .phone-contact .contact-link a {
+header .phone-contact .contact-link span,
+header .phone-contact .contact-link a {
   display: block;
 }
 header .phone-contact .contact-link a {

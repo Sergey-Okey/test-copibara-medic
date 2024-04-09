@@ -20,8 +20,8 @@ body {
 	color: $text-color;
 	font-family: "Montserrat", sans-serif;
 	overflow-x: hidden;
-	background: $background;
 	scroll-behavior: smooth;
+	background: $background;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
 }
@@ -43,9 +43,4 @@ body {
 ::-webkit-scrollbar-thumb {
 	background-color: $accent-color;
 	border-radius: 5px;
-}
-
-*[id] {
-	scroll-margin-top: 10vh;
-	scroll-behavior: smooth;
 }
