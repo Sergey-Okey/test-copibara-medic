@@ -32,6 +32,7 @@
 .gallery .grid-content .gallery-item img:hover {
   box-shadow: 0 10px 20px 0 rgb(203, 209, 204);
   transition: 0.3s ease;
+  border-radius: 8px;
 }
 .gallery .gallery-content {
   display: grid;
@@ -52,6 +53,7 @@
 .gallery .gallery-content .gallery-item img:hover {
   box-shadow: 0 10px 20px 0 rgb(203, 209, 204);
   transition: 0.3s ease;
+  border-radius: 8px;
 }
 .gallery .gallery-content .gallery-item .full {
   min-width: 750px;
