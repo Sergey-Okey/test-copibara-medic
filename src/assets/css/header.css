@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 0;
+}
+header a {
+  color: black;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .logo span {
+  font-size: 14px;
+  font-weight: 400;
+}
+header nav ul li {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+header nav ul li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+header nav ul li a:hover {
+  color: #4F58C9;
+  transition: 0.3s;
+}
+header nav ul li a.active-link {
+  padding: 8px 24px;
+  background: #E9EAF9;
+  color: #4F58C9;
+  border-radius: 4px;
+}
+header .phone-contact {
+  display: flex;
+  align-items: center;
+}
+header .phone-contact img {
+  margin-right: 10px;
+}
+header .phone-contact .contact-link span, header .phone-contact .contact-link a {
+  display: block;
+}
+header .phone-contact .contact-link a {
+  font-size: 18px;
+  font-weight: 600;
+}
+header .phone-contact .contact-link span {
+  font-size: 14px;
+}/*# sourceMappingURL=header.css.map */

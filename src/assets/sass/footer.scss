@@ -1,0 +1,15 @@
+@import './color.scss';
+
+footer {
+	background: #4F58C9;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 60px 200px;
+	span{
+		color: white;
+	}
+	.logo{
+		font-size: 29px;
+	}
+}

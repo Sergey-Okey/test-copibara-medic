@@ -1,0 +1,13 @@
+footer {
+  background: #4F58C9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 200px;
+}
+footer span {
+  color: white;
+}
+footer .logo {
+  font-size: 29px;
+}/*# sourceMappingURL=footer.css.map */

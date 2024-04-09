@@ -1,0 +1,57 @@
+@import './color.scss';
+
+.greting {
+	width: 100%;
+	padding: 210px 0;
+
+	.span-violet,
+	.white-span {
+		text-transform: uppercase;
+		display: block;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+
+	.span-violet {
+		color: white;
+		background: $accent-color;
+		border-radius: 8px;
+		padding: 12px 18px;
+		max-width: 625px;
+	}
+
+	.white-span {
+		color: $accent-color;
+		background-color: white;
+		border-radius: 8px;
+		padding: 12px 18px;
+		max-width: 430px;
+	}
+}
+
+.greting::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 560px;
+	background-image: url(../images/greting/back-greting.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+	top: 150px;
+}
+
+.slogan {
+	width: 100%;
+	text-align: center;
+	padding: 95px 0;
+
+	span {
+		font-size: 1.2rem;
+		font-weight: 600;
+		font-style: italic;
+	}
+}

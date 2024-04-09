@@ -1,0 +1,73 @@
+@import './color.scss';
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 55px 0;
+
+	a {
+		color: black;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+
+		span {
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+
+	nav {
+		ul {
+
+			li {
+				display: flex;
+				gap: 150px;
+				align-items: center;
+
+				a {
+					font-size: 1.2rem;
+					font-weight: 500;
+					text-wrap: nowrap;
+
+					&:hover {
+						color: $accent-color;
+						transition: 0.3s;
+					}
+
+					&.active-link {
+						padding: 8px 24px;
+						background: $batton-back-color;
+						color: $accent-color;
+						border-radius: 4px;
+					}
+				}
+			}
+		}
+	}
+
+	.phone-contact {
+		display: flex;
+		align-items: center;
+		img{
+			margin-right: 10px;
+		}
+		.contact-link{
+			span, a{
+				display: block;
+			}
+			a{
+			font-size: 18px;
+			font-weight: 600;
+			}
+			span{
+				font-size: 14px;
+			}
+		}
+	}
+
+}
