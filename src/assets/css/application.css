@@ -1,4 +1,5 @@
 .application {
+  position: relative;
   display: flexbox;
   text-align: center;
   width: 100%;
@@ -15,5 +16,33 @@
 .application p {
   font-size: 1.5rem;
   line-height: 30px;
-  margin-bottom: 1.2rem;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: linear-gradient(0deg, rgb(233, 234, 249) 0%, rgb(245, 245, 255) 100%);
+  border-radius: 10px;
+}
+.modal .modal-title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 150px 0 50px 0;
+  gap: 20px;
+}
+.modal p {
+  width: 38%;
+  font-size: 24px;
+  color: #737BE1;
+  text-align: left;
 }/*# sourceMappingURL=application.css.map */

@@ -1,6 +1,7 @@
 @import './color.scss';
 
 .application {
+	position: relative;
 	display: flexbox;
 	text-align: center;
 	width: 100%;
@@ -18,6 +19,36 @@
 	p {
 		font-size: 1.5rem;
 		line-height: 30px;
-		margin-bottom: 1.2rem;
+	}
+}
+
+.modal {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background: $background-gradient;
+	border-radius: 10px;
+
+	.modal-title {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		margin: 150px 0 50px 0;
+		gap: 20px;
+	}
+
+	p {
+		width: 38%;
+		font-size: 24px;
+		color: $accent-color;
+		text-align: left;
 	}
 }

@@ -43,10 +43,13 @@
 
 .slogan {
   width: 100%;
+  display: flex;
   text-align: center;
   padding: 96px 0;
+  justify-content: center;
 }
 .slogan span {
+  width: 80%;
   font-size: 1.2rem;
   font-weight: 600;
   font-style: italic;

@@ -118,4 +118,18 @@
     margin-top: 20px;
     order: 2;
   }
+  .modal {
+    width: 100%;
+  }
+  .modal-title {
+    flex-direction: column-reverse;
+    box-shadow: 0;
+  }
+  .modal-title img {
+    order: 1;
+  }
+  .modal-title p {
+    width: 90%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=media.css.map */
